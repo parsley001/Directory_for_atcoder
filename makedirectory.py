@@ -17,7 +17,7 @@ if os.path.isdir(SAMPLE_DIR):
     print("ディレクトリが既に存在しています")
 else:
     os.makedirs(SAMPLE_DIR)
-    filename = ["a","b","c","d","e","f","g","x"]
+    filename = ["A","B","C","D","E","F","G","X"]
     for i in filename:
         path = "./" + SAMPLE_DIR + "/" + i + ".cpp"
         f = open(path, 'w') 
